@@ -58,8 +58,28 @@ body {
   border: none;
 }
 
+.button {
+  color: var(--text-secondary-color);
+  text-decoration: none;
+  background-color: var(--seconary-color);
+  width: 280px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: var(--title-weight);
+}
+
 @media screen and (min-width: 768px) {
   .section-title h2 {
     font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .button:hover {
+    background-color: var(--primary-color);
   }
 }
