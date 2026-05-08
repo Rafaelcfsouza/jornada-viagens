@@ -1,0 +1,85 @@
+.categorie {
+  background-color: var(--background-secondary-color);
+  width: 312px;
+  height: 220px;
+  list-style: none;
+  border-radius: 8px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.categorie a {
+  text-decoration: none;
+  color: var(--text-primary-color);
+  display: inline-block;
+}
+
+.categorie a h3 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+}
+
+.pacotes-nacionais img {
+  margin-top: 41px;
+}
+
+.pacotes-internacionais img {
+  margin-top: 24px;
+}
+
+.transfer img {
+  margin-top: 50px;
+  margin-bottom: 18px;
+}
+
+.seguro-viagem img {
+  margin-top: 41px;
+}
+
+.links-categories {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .links-categories {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .links-categories {
+    width: 950px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .links-categories {
+    width: 100%;
+  }
+
+  .categorie {
+    width: 281px;
+    height: 220px;
+  }
+
+  .pacotes-nacionais img {
+    margin-top: 24px;
+    margin-bottom: 5px;
+  }
+
+  .pacotes-internacionais img {
+    margin-bottom: 8px;
+  }
+
+  .pacotes-nacionais h3 {
+    width: 267px;
+  }
+}

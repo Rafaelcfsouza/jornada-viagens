@@ -3,7 +3,6 @@
   color: var(--text-secondary-color);
   width: 312px;
   height: 288px;
-  background-color: black;
   box-sizing: border-box;
   border-radius: 16px;
   text-align: center;
@@ -39,6 +38,7 @@
   flex-direction: column;
   gap: 24px;
   align-items: center;
+  margin-bottom: 88px;
 }
 
 .card.japao {
@@ -104,6 +104,6 @@
 @media screen and (min-width: 1920px) {
   .offers-cards {
     width: 1250px;
-    margin: 0 auto;
+    margin: 0 auto 88px;
   }
 }
