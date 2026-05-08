@@ -21,14 +21,11 @@
   background-size: cover;
 }
 
-.item {
-  padding: 0 24px;
-}
-
 .destination-itens {
   display: flex;
   flex-direction: column;
   gap: 40px;
+  padding: 0 24px;
 }
 
 .item h4 {
@@ -51,12 +48,20 @@
     height: 452px;
   }
 
-  .item {
+  .destination-itens {
     padding: 0 60px;
   }
 
   .item footer .button {
     width: 280px;
     margin: 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .destination-itens {
+    flex-direction: row;
+    gap: 24px;
+    padding: 0 120px;
   }
 }
