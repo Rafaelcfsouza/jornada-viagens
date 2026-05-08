@@ -1,3 +1,7 @@
+.categories {
+  margin-bottom: 88px;
+}
+
 .categorie {
   background-color: var(--background-secondary-color);
   width: 312px;
