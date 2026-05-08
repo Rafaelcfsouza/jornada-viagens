@@ -52,6 +52,16 @@
     padding: 0 60px;
   }
 
+  .tokyo .img-item {
+    background: url(../img/Tokyo.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .osaka .img-item {
+    background: url(../img/Osaka.jpg) no-repeat;
+    background-size: cover;
+  }
+
   .item footer .button {
     width: 280px;
     margin: 0;
