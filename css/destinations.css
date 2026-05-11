@@ -1,8 +1,4 @@
 .item header {
-  display: block;
-  background-color: transparent;
-  padding: 0;
-  position: static;
   margin-bottom: 24px;
 }
 
@@ -25,7 +21,6 @@
   display: flex;
   flex-direction: column;
   gap: 40px;
-  padding: 0 24px;
 }
 
 .item h4 {
@@ -37,6 +32,7 @@
 .item p {
   font-size: 20px;
   font-weight: var(--text-weight);
+  line-height: 1.5;
 }
 
 .item footer .button {
@@ -46,10 +42,6 @@
 @media screen and (min-width: 768px) {
   .img-item {
     height: 452px;
-  }
-
-  .destination-itens {
-    padding: 0 60px;
   }
 
   .tokyo .img-item {
@@ -72,6 +64,5 @@
   .destination-itens {
     flex-direction: row;
     gap: 24px;
-    padding: 0 120px;
   }
 }
