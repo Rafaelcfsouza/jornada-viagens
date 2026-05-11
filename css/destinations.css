@@ -1,0 +1,68 @@
+.item header {
+  margin-bottom: 24px;
+}
+
+.img-item {
+  height: 360px;
+  width: 100%;
+}
+
+.tokyo .img-item {
+  background: url(../img/Tokyo-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
+.osaka .img-item {
+  background: url(../img/Osaka-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
+.destination-itens {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.item h4 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  margin: 24px 0;
+}
+
+.item p {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  line-height: 1.5;
+}
+
+.item footer .button {
+  width: 312px;
+}
+
+@media screen and (min-width: 768px) {
+  .img-item {
+    height: 452px;
+  }
+
+  .tokyo .img-item {
+    background: url(../img/Tokyo.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .osaka .img-item {
+    background: url(../img/Osaka.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .item footer .button {
+    width: 280px;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .destination-itens {
+    flex-direction: row;
+    gap: 24px;
+  }
+}
