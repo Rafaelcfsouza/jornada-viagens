@@ -33,10 +33,18 @@
 .testimonials .align {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .testimonials span {
-  font-size: 40px;
+  font-size: 39px;
   color: var(--seconary-color);
+}
+
+@media screen and (min-width: 1440px) {
+  .testimonial-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
 }
