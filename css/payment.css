@@ -1,2 +1,71 @@
-.payment-imgs img {
+.payment-imgs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 254px 182px;
+  grid-template-areas:
+    "bag passport"
+    "people people";
+  height: 460px;
+  gap: 24px;
+  width: 100%;
+}
+
+.payment-content p {
+  margin-bottom: 24px;
+}
+
+.bag {
+  background: url(../img/Montagem-mobile1.jpg) no-repeat;
+  background-size: cover;
+  grid-area: bag;
+}
+
+.passport {
+  background: url(../img/Montagem-mobile2.jpg) no-repeat;
+  background-size: cover;
+  grid-area: passport;
+}
+.people {
+  background: url(../img/Montagem-mobile3.jpg) no-repeat;
+  background-size: cover;
+  grid-area: people;
+}
+
+@media screen and (min-width: 768px) {
+  .bag {
+    background: url(../img/Montagem-tablet1.jpg) no-repeat;
+    background-size: cover;
+    grid-area: bag;
+  }
+
+  .passport {
+    background: url(../img/Montagem-tablet2.png) no-repeat;
+    background-size: cover;
+    grid-area: passport;
+  }
+  .people {
+    background: url(../img/Montagem-tablet3.jpg) no-repeat;
+    background-size: cover;
+    grid-area: people;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .payment h4 {
+    margin: 0 0 24px;
+    width: 285px;
+  }
+
+  .payment .content-text {
+    width: 384px;
+  }
+
+  .payment-imgs {
+    width: 790px;
+  }
+
+  .payment-content {
+    display: flex;
+    gap: 23px;
+  }
 }
