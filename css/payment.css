@@ -66,6 +66,6 @@
 
   .payment-content {
     display: flex;
-    gap: 23px;
+    justify-content: space-between;
   }
 }
