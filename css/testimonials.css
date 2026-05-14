@@ -1,0 +1,42 @@
+.testimonials header p {
+  font-size: 16px;
+}
+
+.testimonial-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.testimonials footer {
+  display: flex;
+  gap: 24px;
+}
+
+.testimonials p {
+  margin-bottom: 8px;
+  line-height: 1.5;
+  font-weight: var(--text-weight);
+}
+
+.testimonials footer img {
+  width: 86px;
+  height: 86px;
+}
+
+.testimonials footer h3 {
+  font-size: 20px;
+  font-weight: var(--title-weight);
+  margin: 0;
+}
+
+.testimonials .align {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.testimonials span {
+  font-size: 40px;
+  color: var(--seconary-color);
+}
